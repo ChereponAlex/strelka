@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { LocationsList } from "./LocationsList.jsx";
 import { GeoMap } from "./GeoMap.jsx";
+// import 'mapbox-gl/dist/mapbox-gl.css'
 
 export const MapboxPage = () => {
   const [popupParams, setPopupParams] = useState({ selected: null, visible: false })

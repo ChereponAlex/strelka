@@ -1,0 +1,18 @@
+name: Master deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.2.6
+        with:
+          heroku_api_key: ${{secrets.HEROKU_DEV_API_KEY}}
+          heroku_app_name: "test-task-from-alexey"
+          heroku_email: "osdoka@mail.ru"
+          usedocker: true
