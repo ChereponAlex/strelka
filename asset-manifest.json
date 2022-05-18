@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/strelka/static/css/main.60b634fc.css",
+    "main.js": "/strelka/static/js/main.cd60e7cb.js",
+    "static/js/483.f598b779.chunk.js": "/strelka/static/js/483.f598b779.chunk.js",
+    "static/js/787.a97ecfb0.chunk.js": "/strelka/static/js/787.a97ecfb0.chunk.js",
+    "index.html": "/strelka/index.html",
+    "main.60b634fc.css.map": "/strelka/static/css/main.60b634fc.css.map",
+    "main.cd60e7cb.js.map": "/strelka/static/js/main.cd60e7cb.js.map",
+    "483.f598b779.chunk.js.map": "/strelka/static/js/483.f598b779.chunk.js.map",
+    "787.a97ecfb0.chunk.js.map": "/strelka/static/js/787.a97ecfb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b634fc.css",
+    "static/js/main.cd60e7cb.js"
+  ]
+}
