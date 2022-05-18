@@ -21,6 +21,6 @@ WORKDIR /frontend
 COPY package*.json ./
 RUN npm i
 COPY --from=builder /frontend/dist /frontend/dist
-COPY --from=builder /frontend/server/index.js .server/index.js
+COPY --from=builder /frontend/server/index.js /frontend/server/index.js
 
 CMD npm start
